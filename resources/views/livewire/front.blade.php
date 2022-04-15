@@ -32,7 +32,7 @@
                     @endif
 
                     <img src="{{ Storage::url($data->file) }}" width="100%" height="160px" style="padding:10px 10px 0px 10px;" alt="...">
-                    <div style="display: block; font-weight: bold; margin-top:1px; background: #0c63e4; color:white; " class="text-center py-2 text-wrap">
+                    <div style="display: block; font-weight: bold; margin-top:1px; background: #0c63e4; color:white; " class="text-center py-2" id="namagame">
                         {{$data->namagame}}</div>
                     <div>
                         <div class="row text-center">
@@ -50,7 +50,7 @@
                     </div>
                     <div style="padding-left:5px; background:red; color:white;" class="">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-6" id="minstake">
                                 Min Stake
                             </div>
                             <div class="col-6">
@@ -61,7 +61,7 @@
                     </div>
                     <div style="padding-left:5px; color:black; background:yellow;">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-6" id="medstake">
                                 Med Stake
                             </div>
                             <div class="col-6">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div style="padding-left:5px; background:green; color:white;"> <div class="row">
-                            <div class="col-6">
+                            <div class="col-6" id="maxstake" >
                                 Max Stake
                             </div>
                             <div class="col-6">

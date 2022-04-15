@@ -2134,6 +2134,14 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  #masuk, #daftar {
+      font-size: 0.9rem !important;
+  }
+
+  #namagame, #minstake, #medstake, #maxstake{
+      font-size:0.8rem !important;
+  }
+
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
