@@ -94,10 +94,10 @@
 <div class="container mt-1">
     <div class="row justify-content-center">
         <div class="col-6 col-md-6 col-sm-6 ">
-            <a class="btn bg-danger text-white form-control" style="font-size:1.5rem;" href="{{ $links->daftar }}" target="_blank">D A F T A R</a>
+            <a class="btn bg-danger text-white form-control" style="font-size:1.5rem;" href="{{ $links->daftar ?? '#' }}" target="_blank">D A F T A R</a>
         </div>
         <div class="col-6 col-md-6 col-sm-6">
-            <a class="btn form-control" style="font-size:1.5rem; background:black; color:gold; font-weight: bold;" href="{{ $links->login }}" target="_blank">M A S U K</a>
+            <a class="btn form-control" style="font-size:1.5rem; background:black; color:gold; font-weight: bold;" href="{{ $links->login ?? '#' }}" target="_blank">M A S U K</a>
         </div>
     </div>
     @yield('front')
