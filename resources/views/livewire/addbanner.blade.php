@@ -49,8 +49,8 @@
    </div>
     <div class="row mt-2" style="position: relative;height: 650px; overflow-y: scroll;" >
         @foreach($banner as $data)
-                <img src="{{ Storage::url($data->file) }}" alt="{{ $data->altimage }}" style="padding:0px; margin-left:10px; width:40rem;" class="mt-2">
-                <button wire:click="delete({{ $data->id }})" class="close btn btn-danger" style="bottom:0; margin-left:10px; width:40rem;">Hapus</button>
+                <img src="{{ Storage::url($data->file) }}" alt="{{ $data->altimage }}" style="padding:0px; margin-left:10px; width:20rem;" class="mt-2">
+                <button wire:click="delete({{ $data->id }})" class="close btn btn-danger" style="bottom:0; margin-left:10px; width:20rem;">Hapus</button>
         @endforeach
     </div>
 </div>
