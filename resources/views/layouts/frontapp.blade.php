@@ -17,7 +17,7 @@
 </head>
 <body style="background: radial-gradient(circle, rgba(28,58,147,1) 0%, rgba(42,183,228,1) 48%, rgba(0,212,255,1) 100%)">
 <div class="container-fluid mx-auto text-center py-3" style="background:whitesmoke;">
-    <img src="{{ Storage::url($logos->file) }}" alt="">
+    <img src="{{ Storage::url($logos->file) ?? '' }}" alt="">
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
